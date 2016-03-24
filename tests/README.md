@@ -5,7 +5,7 @@ It is based on the branch `upstream` which is (should be) a copy of the current 
 
 ## What are PageObjects?
 
-PageObjects represent real pages and the functionality provided by these pages.
+PageObjects represent real pages (or fragments) and the functionality they provide.
 Since a CMS like Joomla! supports templates, the simple way of selecting elements directly using CSS or XPath is limited to a bespoke template.
 The functionality used in tests is the same, however, across different templates.
 That's where PageObjects come into play.
